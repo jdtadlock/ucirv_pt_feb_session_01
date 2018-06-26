@@ -1,0 +1,78 @@
+/* Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Global Classes */
+
+.row {
+  display: flex;
+}
+
+.split {
+  justify-content: space-between;
+}
+
+.y-center {
+  align-items: center;
+}
+
+/* Custom Styles */
+
+/* #some-div {
+  background: red;
+} */
+
+header {
+  padding: 9px 5%;
+}
+
+.logo-one {
+  color: rgb(160, 0, 0);
+  font-weight: 300;
+}
+
+.logo-two {
+  font-weight: 400;
+}
+
+.logo-sub-text {
+  text-transform: uppercase;
+  font-size: .7rem;
+  color: rgb(160, 0, 0);
+}
+
+/* Main Content */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 19.8%);
+  grid-column: 3 / span 2;
+  grid-template-rows: repeat(3, 220px);
+  grid-gap: 5px;
+  padding: 25px 5%;
+}
+
+.bio {
+  background-image: url(https://picsum.photos/800/600?image=1062);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.project {
+  background-size: cover;
+  background-position: center;
+}
