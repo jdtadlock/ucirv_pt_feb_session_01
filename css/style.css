@@ -57,7 +57,7 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: repeat(5, 19.8%);
+  grid-template-columns: repeat(5, 19.77%);
   grid-column: 3 / span 2;
   grid-template-rows: repeat(3, 220px);
   grid-gap: 5px;
